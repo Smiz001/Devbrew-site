@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service — DevBrew</title>
+    <style>
+        :root {
+            --bg: #fafafa;
+            --surface: #ffffff;
+            --text: #1d1d1f;
+            --secondary: #6e6e73;
+            --accent: #0071e3;
+            --border: #e5e5ea;
+            --radius: 12px;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #111111;
+                --surface: #1c1c1e;
+                --text: #f5f5f7;
+                --secondary: #a1a1a6;
+                --accent: #2997ff;
+                --border: #38383a;
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        .header {
+            text-align: center;
+            padding: 60px 20px 40px;
+        }
+        .header .icon {
+            margin-bottom: 16px;
+        }
+        .header h1 {
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+        .header .app-name {
+            color: var(--secondary);
+            font-size: 15px;
+            margin-top: 6px;
+        }
+        .header .updated {
+            color: var(--secondary);
+            font-size: 13px;
+            margin-top: 4px;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 0 24px 80px;
+        }
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 32px;
+            margin-bottom: 20px;
+        }
+        .card h2 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            letter-spacing: -0.2px;
+        }
+        .card p {
+            color: var(--secondary);
+            font-size: 15px;
+        }
+        .card p + p { margin-top: 10px; }
+        .card ul {
+            color: var(--secondary);
+            font-size: 15px;
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        .card ul li { margin-bottom: 6px; }
+        .highlight {
+            color: var(--text);
+            font-weight: 500;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            max-width: 680px;
+            margin: 0 auto;
+        }
+        .footer a { color: var(--secondary); }
+        .nav {
+            text-align: center;
+            padding: 16px 20px;
+        }
+        .nav a {
+            font-size: 14px;
+            color: var(--secondary);
+            margin: 0 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="icon.png" alt="DevBrew" class="icon" width="72" height="72" style="border-radius:16px">
+        <h1>Terms of Service</h1>
+        <div class="app-name">DevBrew</div>
+        <div class="updated">Last updated: February 14, 2026</div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h2>Acceptance of Terms</h2>
+            <p>By downloading or using DevBrew ("the App"), you agree to these Terms of Service. If you do not agree, do not use the App.</p>
+        </div>
+
+        <div class="card">
+            <h2>License</h2>
+            <p>The Developer grants you a limited, non-exclusive, non-transferable, revocable license to use the App for personal purposes in accordance with these Terms.</p>
+        </div>
+
+        <div class="card">
+            <h2>Purchase</h2>
+            <p>The App is available as a one-time purchase through the Apple App Store. The price is determined by the App Store listing at the time of purchase. All payments are processed by Apple. Refund requests are handled by Apple in accordance with their refund policy.</p>
+        </div>
+
+        <div class="card">
+            <h2>Use Restrictions</h2>
+            <p>You agree not to:</p>
+            <ul>
+                <li>Reverse engineer, decompile, or disassemble the App</li>
+                <li>Use the App for any unlawful purpose</li>
+                <li>Redistribute or resell the App</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Intellectual Property</h2>
+            <p>All content, design, and code in the App are the intellectual property of Nikita Posokhov and are protected by applicable copyright laws.</p>
+        </div>
+
+        <div class="card">
+            <h2>Disclaimer</h2>
+            <p>The App is provided "as is" without warranties of any kind, either express or implied. The Developer does not guarantee that the App will be error-free or uninterrupted.</p>
+        </div>
+
+        <div class="card">
+            <h2>Limitation of Liability</h2>
+            <p>To the maximum extent permitted by law, the Developer shall not be liable for any indirect, incidental, or consequential damages arising from your use of the App.</p>
+        </div>
+
+        <div class="card">
+            <h2>Changes to Terms</h2>
+            <p>The Developer reserves the right to modify these Terms at any time. Continued use of the App after changes constitutes acceptance of the updated Terms.</p>
+        </div>
+
+        <div class="card">
+            <h2>Contact</h2>
+            <p>If you have questions about these Terms, contact:</p>
+            <p>Email: <a href="mailto:privacy@devbrew.app">privacy@devbrew.app</a></p>
+        </div>
+    </div>
+
+    <nav class="nav">
+        <a href="privacy-policy.html">Privacy Policy</a>
+    </nav>
+
+    <div class="footer">
+        <p>&copy; 2026 Nikita Posokhov. All rights reserved.</p>
+    </div>
+</body>
+</html>

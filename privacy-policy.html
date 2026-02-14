@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — DevBrew</title>
+    <style>
+        :root {
+            --bg: #fafafa;
+            --surface: #ffffff;
+            --text: #1d1d1f;
+            --secondary: #6e6e73;
+            --accent: #0071e3;
+            --border: #e5e5ea;
+            --radius: 12px;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #111111;
+                --surface: #1c1c1e;
+                --text: #f5f5f7;
+                --secondary: #a1a1a6;
+                --accent: #2997ff;
+                --border: #38383a;
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        .header {
+            text-align: center;
+            padding: 60px 20px 40px;
+        }
+        .header .icon {
+            margin-bottom: 16px;
+        }
+        .header h1 {
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+        .header .app-name {
+            color: var(--secondary);
+            font-size: 15px;
+            margin-top: 6px;
+        }
+        .header .updated {
+            color: var(--secondary);
+            font-size: 13px;
+            margin-top: 4px;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 0 24px 80px;
+        }
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 32px;
+            margin-bottom: 20px;
+        }
+        .card h2 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            letter-spacing: -0.2px;
+        }
+        .card p {
+            color: var(--secondary);
+            font-size: 15px;
+        }
+        .card p + p { margin-top: 10px; }
+        .highlight {
+            color: var(--text);
+            font-weight: 500;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            max-width: 680px;
+            margin: 0 auto;
+        }
+        .footer a { color: var(--secondary); }
+        .nav {
+            text-align: center;
+            padding: 16px 20px;
+        }
+        .nav a {
+            font-size: 14px;
+            color: var(--secondary);
+            margin: 0 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="icon.png" alt="DevBrew" class="icon" width="72" height="72" style="border-radius:16px">
+        <h1>Privacy Policy</h1>
+        <div class="app-name">DevBrew</div>
+        <div class="updated">Last updated: February 14, 2026</div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h2>Overview</h2>
+            <p>DevBrew ("the App") is developed by Nikita Posokhov ("Developer"). This Privacy Policy explains how the App handles your information.</p>
+        </div>
+
+        <div class="card">
+            <h2>Data You Enter</h2>
+            <p>During normal use, you may enter or paste various types of data into the App, including but not limited to: JSON, JWT tokens, timestamps, URLs, Base64-encoded strings, hashes, regular expressions, color codes, and other developer-related content.</p>
+            <p><span class="highlight">All of this data is processed entirely on your device.</span> None of it is collected, transmitted, or accessible to the Developer or any third party.</p>
+        </div>
+
+        <div class="card">
+            <h2>Data Collection</h2>
+            <p>The App does <span class="highlight">not</span> collect, store, or transmit any personal data. There are no analytics, crash reporting, or telemetry systems in the App.</p>
+        </div>
+
+        <div class="card">
+            <h2>Third-Party Services</h2>
+            <p>The App does not use any third-party analytics, advertising, or tracking services.</p>
+        </div>
+
+        <div class="card">
+            <h2>Updates</h2>
+            <p>The App is distributed and updated exclusively through the Apple App Store. No background update mechanisms or network connections are used by the App itself.</p>
+        </div>
+
+        <div class="card">
+            <h2>Data Storage</h2>
+            <p>All app data is stored locally on your device. The Developer has no access to this data. If you delete the App, all locally stored data will be removed.</p>
+        </div>
+
+        <div class="card">
+            <h2>Children's Privacy</h2>
+            <p>The App does not knowingly collect any information from children under 13 years of age.</p>
+        </div>
+
+        <div class="card">
+            <h2>Changes to This Policy</h2>
+            <p>The Developer may update this Privacy Policy from time to time. Any changes will be reflected in the "Last updated" date above.</p>
+        </div>
+
+        <div class="card">
+            <h2>Contact</h2>
+            <p>If you have questions about this Privacy Policy, contact:</p>
+            <p>Email: <a href="mailto:privacy@devbrew.app">privacy@devbrew.app</a></p>
+        </div>
+    </div>
+
+    <nav class="nav">
+        <a href="terms-of-service.html">Terms of Service</a>
+    </nav>
+
+    <div class="footer">
+        <p>&copy; 2026 Nikita Posokhov. All rights reserved.</p>
+    </div>
+</body>
+</html>
